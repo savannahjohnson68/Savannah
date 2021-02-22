@@ -23,6 +23,32 @@
 
     <p>Add Bio Here</p>
 
+    <h2>Contact</h2>
+    <form
+      name="My Contact Form"
+      method="POST"
+      data-netlify="true"
+      data-netlify-recaptcha="true"
+      action="/thanks.html"
+    >
+      <p>
+        <label>Name: <input type="text" name="name" required /></label>
+      </p>
+
+      <p>
+        <label>Your Email: <input type="email" name="email" required /></label>
+      </p>
+
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+
+      <div data-netlify-recaptcha="true"></div>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+
     <script src="/js/scripts.js"></script>
   </body>
 </html>
