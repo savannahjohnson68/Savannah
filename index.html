@@ -11,17 +11,44 @@
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css"
+    />
   </head>
   <body>
     <h1>Savannah Johnson</h1>
     <img
       src="/img/Head Shot.jpg"
       alt="Savannah Johnson"
-      width="200"
-      height="350"
+      width="150"
+      height="250"
     />
 
     <p>Add Bio Here</p>
+
+    <section>
+      <div id="portfolioGallery">
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+        <a href="https://picsum.photos/1080">
+          <img src="https://picsum.photos/1080" alt="Placeholder" />
+        </a>
+      </div>
+    </section>
 
     <h2>Contact</h2>
     <form
@@ -50,5 +77,9 @@
     </form>
 
     <script src="/js/scripts.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("portfolioGallery"));
+    </script>
   </body>
 </html>
