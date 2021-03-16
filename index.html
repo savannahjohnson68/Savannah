@@ -10,11 +10,10 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css"
-    />
+  
+    <link rel="stylesheet" href="css/lightgallery.min.css" />
+    <link rel="stylesheet" href="css/lg-transitions.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
     <h1>hi i'm</h1>
@@ -38,26 +37,48 @@
       hiking with me and wears a backpack while doing so.
     </p>
 
-    <section>
-      <div id="portfolioGallery">
-        <a href="Johnson_Savannah-GWWS-image1-01.jpg">
-          <img src="Johnson_Savannah-GWWS-image1-01.jpg" alt="Placeholder" />
-        </a>
-        <a href="https://picsum.photos/1080">
-          <img src="https://picsum.photos/1080" alt="Placeholder" />
-        </a>
-        <a href="https://picsum.photos/1080">
-          <img src="https://picsum.photos/1080" alt="Placeholder" />
-        </a>
-        <a href="https://picsum.photos/1080">
-          <img src="https://picsum.photos/1080" alt="Placeholder" />
-        </a>
-        <a href="https://picsum.photos/1080">
-          <img src="https://picsum.photos/1080" alt="Placeholder" />
-        </a>
-      </div>
-    </section>
+<!--Lightbox Gallery-->
+    <div id="gallery">
 
+      <figure>
+      <a href="/img/pcmakerspace-full.jpg">
+        <img src="/img/pcmakerspace-thumb.png" alt="thumbnail">
+      </a>
+        <figcaption>Pierce College Maker Space logo and documentation<figcaption>
+        </figure>
+    
+        <figure>
+      <a href="/img/shelby-wave-full.gif">
+        <img src="/img/shelby-wave-thumb.jpg" alt="thumbnail">
+      </a>
+      <figcaption>Pixel Art waving self portrait gif<figcaption>
+      </figure>
+    
+      <figure>
+      <a href="/img/srcw-symposium-full.jpg">
+        <img src="/img/srcw-symposium-thumb.png" alt="thumbnail">
+      </a>
+      <figcaption>EWU Student Researc & Creative Works Symposium logo redesign<figcaption>
+      </figure>
+    
+      <figure>
+      <a href="/img/whats-your-record-full.jpg">
+        <img src="/img/whats-your-record-thumb.png" alt="thumbnail">
+      </a>
+      <figcaption>Fictional What's Your Record logo and mock site<figcaption>
+      </figure>
+    
+      <figure>
+      <a href="/img/libby-feature-full.png">
+        <img src="/img/libby-feature-thumb.png" alt="thumbnail">
+      </a>
+      <figcaption>Libby app feature add - reccomended reading<figcaption>
+      </figure>
+    
+    
+    </div>
+    
+<!--Contact Form-->
     <h2>Contact Me!</h2>
     <form
       name="My Contact Form"
@@ -83,11 +104,11 @@
         <button type="submit">Send</button>
       </p>
     </form>
-
+<!--Lightbox script-->
+    <script src="js/lightgallery.min.js"></script>
+    <!--class script-->
     <script src="/js/scripts.js"></script>
-    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
-    <script type="text/javascript">
-      lightGallery(document.getElementById("portfolioGallery"));
-    </script>
+
+    
   </body>
 </html>
