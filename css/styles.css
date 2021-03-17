@@ -1,3 +1,8 @@
+.header {
+  background-color: powderblue;
+  border-radius: 10px;
+}
+
 body {
   background-color: #a5a9d8;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -20,4 +25,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.footer {
+  background-color: pink;
+  border-radius: 10px;
 }
