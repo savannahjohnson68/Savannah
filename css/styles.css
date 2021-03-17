@@ -3,6 +3,10 @@
   border-radius: 10px;
 }
 
+.stuff-header {
+  background-color: #e7e8d9;
+  border-radius: 10px;
+}
 body {
   background-color: #a5a9d8;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
